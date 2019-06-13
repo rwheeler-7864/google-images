@@ -23,12 +23,12 @@ setup(
     description="Python Script to download hundreds of images from 'Google Images'. It is a ready-to-run code! ",
     long_description=long_description,
     url='https://github.com/hardikvasa/google-images-download',
-    download_url='https://github.com/hardikvasa/google-images-download/tarball/' + __version__,
+    download_url='https://github.com/rwheeler-7864/google-images-download/tarball/' + __version__,
     license='MIT',
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: MIT License',
+        'License :: OSI Approved :: License',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
@@ -38,10 +38,10 @@ setup(
     keywords='google images download save filter color image-search image-dataset image-scrapper image-gallery terminal command-line',
     packages=find_packages(exclude=['docs', 'tests*']),
     include_package_data=True,
-    author='Hardik Vasa',
+    author='',
     install_requires=install_requires,
     dependency_links=dependency_links,
-    author_email='hnvasa@gmail.com',
+    author_email='randmwheeler@gmail.com',
     entry_points={
         'console_scripts': [
             'googleimagesdownload = google_images_download.google_images_download:main'
